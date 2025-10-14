@@ -1,0 +1,28 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc} % Pacote para acentuação
+\usepackage[brazil]{babel} % Para quem vai escrever em português brasileiro
+\usepackage[lmargin=3cm,tmargin=3cm,rmargin=2cm,bmargin=2cm]{geometry} % Formato que lembra a ABNT
+\usepackage{amsmath, amsthm, amsfonts, amssymb, dsfont, mathtools} % Pacotes matemáticos
+\usepackage{graphicx}
+
+\begin{document}
+
+\section{Tabela de Notas} % Use section* para um título sem numeração
+
+\begin{center} % Centraliza a tabela no texto [11:10]
+\begin{tabular}{|l|c|c|c|} % Define 4 colunas: 1 alinhada à esquerda (l) e 3 centralizadas (c) 
+    \hline % Adiciona uma linha horizontal no topo
+    \textbf{Matérias} & \textbf{Prova 1} & \textbf{Prova 2} & \textbf{Nota Final} \\ % Títulos das colunas em negrito 
+    \hline % Linha horizontal após os títulos 
+    Cálculo 1 & 7,5 & 7 & NFC1 \\ % Exemplo de linha 
+    \hline % Linha horizontal entre as matérias 
+    Álgebra Linear & 8,5 & 6 & NFAL \\
+    \hline
+    Química 1 & 6,5 & 6 & NFQ1 \\
+    \hline
+    Introdução às Engenharias & 10 & 9,5 & NFI \\
+    \hline
+\end{tabular}
+\end{center}
+
+\end{document}
